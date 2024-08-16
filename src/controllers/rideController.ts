@@ -8,7 +8,7 @@ const rides: Ride[] = [
         distance: 1,
         startTime: "2023-08-13T13:00:00Z",
         duration: 1200,
-        imageUrl: "/images/taxi-2.webp"
+        imageUrl: "/images/taxi-1.webp"
     },
     {
         id: 2,
