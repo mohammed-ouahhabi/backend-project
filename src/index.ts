@@ -1,11 +1,6 @@
-import express from 'express';
+import app from './app'; // Assurez-vous que le chemin est correct
 
-const app = express();
-const port = 3000;
-
-app.get("/",(req,res) => {
-    res.send('Heloo World');
-});
+const port = 5000;
 
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
