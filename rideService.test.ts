@@ -1,4 +1,3 @@
-// src/services/rideService.test.ts
 import { calculatePrice } from "./src/service/rideService";
 
 test('Calculates correct price for a standard ride', () => {
